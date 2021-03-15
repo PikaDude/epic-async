@@ -4,5 +4,5 @@ interface Callback {
 interface LoopFunction {
     (value: unknown, callback: Callback, i: number): void;
 }
-export default function forEach(array: Array<unknown>, loop: LoopFunction, done?: Callback): Promise<void>;
+export declare function forEach(array: Array<unknown>, loop: LoopFunction, done?: Callback): Promise<void>;
 export {};

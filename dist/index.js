@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.forEach = void 0;
 function forEach(array, loop, done) {
     return new Promise((resolve) => {
         let i = -1;
@@ -16,4 +17,4 @@ function forEach(array, loop, done) {
         cb();
     });
 }
-exports.default = forEach;
+exports.forEach = forEach;
